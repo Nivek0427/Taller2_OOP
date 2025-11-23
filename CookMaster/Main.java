@@ -14,9 +14,9 @@ public class Main {
         r1.agregarPaso(new Paso(1, "Mezclar ingredientes."));
         r1.agregarPaso(new Paso(2, "Montar el tiramisú."));
         r1.agregarPaso(new Paso(2, "Refrigerar."));
-        System.out.println("→ Receta creada: " + r1.getNombre());
-        System.out.println("→ Ingredientes añadidos: " + r1.ingredientes.size());
-        System.out.println("→ Pasos añadidos: " + r1.pasos.size());
+        System.out.println("Receta creada: " + r1.getNombre());
+        System.out.println("Ingredientes añadidos: " + r1.ingredientes.size());
+        System.out.println("Pasos añadidos: " + r1.pasos.size());
         libro.agregar(r1);
         System.out.println("Receta guardada en el Libro de Recetas.\n");
 
@@ -28,9 +28,9 @@ public class Main {
         r2.agregarIngrediente(new Ingrediente("Agua", 1, "un vaso grande"));
         r2.agregarPaso(new Paso(1, "Mezclar agua y limón."));
         r2.agregarPaso(new Paso(2, "Agregar azúcar."));
-        System.out.println(" Receta creada: " + r2.getNombre());
-        System.out.println(" Ingredientes añadidos: " + r2.ingredientes.size());
-        System.out.println(" Pasos añadidos: " + r2.pasos.size());
+        System.out.println("Receta creada: " + r2.getNombre());
+        System.out.println("Ingredientes añadidos: " + r2.ingredientes.size());
+        System.out.println("Pasos añadidos: " + r2.pasos.size());
         libro.agregar(r2);
         System.out.println("Receta guardada en el Libro de Recetas.\n");
 
