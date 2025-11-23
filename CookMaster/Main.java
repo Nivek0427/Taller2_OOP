@@ -28,9 +28,9 @@ public class Main {
         r2.agregarIngrediente(new Ingrediente("Agua", 1, "un vaso grande"));
         r2.agregarPaso(new Paso(1, "Mezclar agua y limón."));
         r2.agregarPaso(new Paso(2, "Agregar azúcar."));
-        System.out.println("→ Receta creada: " + r2.getNombre());
-        System.out.println("→ Ingredientes añadidos: " + r2.ingredientes.size());
-        System.out.println("→ Pasos añadidos: " + r2.pasos.size());
+        System.out.println(" Receta creada: " + r2.getNombre());
+        System.out.println(" Ingredientes añadidos: " + r2.ingredientes.size());
+        System.out.println(" Pasos añadidos: " + r2.pasos.size());
         libro.agregar(r2);
         System.out.println("Receta guardada en el Libro de Recetas.\n");
 
@@ -41,7 +41,7 @@ public class Main {
         int i = 1;
         for (Receta r : libro.listar()) {
             System.out.println(i++ + ". " + r.getNombre() + " (" +
-                    r.getTipo() + ") – Tiempo: " + r.getTiempoPreparacion() + " min");
+                    r.getTipo() + ")  Tiempo: " + r.getTiempoPreparacion() + " min");
         }
 
         System.out.println("______________________________________\n");
